@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Beauty of R's pnorm"
-date:   2025-12-27 17:19:54 +0800
+date:   2025-12-26 17:19:54 +0800
 categories: statistics programming
 ---
 
@@ -15,7 +15,7 @@ But how do these functions run, under the hood? In school, these are reduced to 
 
 To compute the cumulative density function of the standard normal, there are a few approaches, like an approximation by [rational Chebyshev functions](https://en.wikipedia.org/wiki/Chebyshev_rational_functions). This is basically how `pnorm` is [implemented in R](https://github.com/SurajGupta/r-source/blob/master/src/nmath/pnorm.c). 
 
-This was originally implemented as part of a portable FORTRAN package, [Algorithm 715](https://dl.acm.org/doi/abs/10.1145/151271.151273), and later ported over to R's core C libraries. It is a wonder of software engineering. The algorithm is beautiful in its simplicity.
+This was originally implemented as part of a portable FORTRAN package, [Algorithm 715](https://dl.acm.org/doi/abs/10.1145/151271.151273), and later ported over to R's core C libraries. The algorithm is a marvel of software engineering. It is quite beautiful in its simplicity.
 
 1. Only multiplications and additions are required.
 2. The computation branches based only on how big the input is: one set of constants for small values, one set for medium values, one set for very large values.
