@@ -1,18 +1,17 @@
 ---
 layout: page
-title: About
+title: About 
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Jireh. On the Internet, I often go by @daikonradish, which is my favorite root vegetable.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+In a previous life, I was a
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+1. Data scientist at Meta, where I worked first on [Facebook](https://patents.justia.com/patent/9729494) [Groups](https://patents.justia.com/patent/10218784) and then on the AB Testing framework (and, incidentally, created [Sticker](https://thenextweb.com/news/facebook-launches-sticker-search-can-find-perfect-reaction) [Search](https://patents.justia.com/patent/11308173) during a hackathon)
+2. Researcher affiliated with Mahidol-Oxford, where I did research on the safety of [artemisinin](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30297-4/fulltext) [derivatives](https://www.repository.cam.ac.uk/items/6ed6db97-e841-4ff9-b61c-0083eaf4e26f)
+3. Data scientist at Gojek, where I managed a bunch of data scientists
 
+Currently, I am working on [DataHaskell](https://www.datahaskell.org/). My interests include functional programming, statistical programming and statistics. 
 
-[jekyll-organization]: https://github.com/jekyll
+In my spare time, I like [climbing](https://rockisland.id/).
